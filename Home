@@ -1,1 +1,19 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/auth.css">
+</head>
+<body>
+    <div class="card">
+        <p>Sign In</p>
+        <input type="email" placeholder="Email" class="email" value="rukkiecodes@gmail.com"> 
+        <input type="password" placeholder="Password" class="password" value="amagboro">
+        <a href="/signup.html">Don't have an account? Sign Up</a>
+        <button class="signin-button"><span class="spans">Sign In</span> <div class="loading-spinner"></div></button>
+    </div>
+    <script src="./scripts/signin.js"></script>
+</body>
+</html>
